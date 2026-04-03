@@ -1,0 +1,28 @@
+Chapter 10: Estimation
+
+    Estimation is one of the simplest, yet most frightening activities that software professionals face.
+
+WHAT IS AN ESTIMATE
+An estimate in busines terms means commitments while developers like to view it as guesses, the difference is profound.
+
+A COMMITMENT
+A commitment is something you must achieve. If you commit to getting something done by a certain date, then you simply have to get it done by that date. Professionals dont make commitments unless they know they can achieve them. Commmitment is about certainty. Other people are going to accept your commitments and make plans based upon them
+
+AN ESTIMATE
+An estimate is a guess because no commitment is implied and no promise is made. Missing an estimate is not in any way dishonorable. The reason we make estimates is because we dont know how long something will take. An estimate is not a number, it is a distribution.
+
+Implied commitments
+Professionals draw a clear distinction between estimates and commitments. They do not commit unless they know for sure that they will suceed. They are careful not to make implied commitments.
+
+PERT
+The program Evaluation and review technique uses three numbers per task;
+
+Optimistic Estimate: This number is wildly optimistic. You could only get the task done this quickly if absolutely everything went right
+
+Nominal Estimate: This is the estimate with the greatest chance of success
+
+Pesiimistic Estimate:Once again, this is wildly pessimistic, it should include everything except hurricanes, nuclear war, stray black holes, and other catastrophes
+
+From these, the expected duration
+
+
