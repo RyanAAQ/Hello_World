@@ -1,2 +1,0 @@
-#niggers first py code
-
