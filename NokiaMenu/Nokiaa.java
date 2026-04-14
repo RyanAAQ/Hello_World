@@ -32,7 +32,7 @@ public class Nokia {
 break;
 
     case 1:
-    int pchoice = -1;
+    int pchoice = 1;
     while (pchoice != 0) {
     System.out.println("\n========== PHONE BOOK ==========");
     System.out.println("1. Search");
@@ -66,7 +66,7 @@ break;
     case 7: System.out.println("-> Send b'card...");
 break;
     case 8:
-    int ochoice = -1;
+    int ochoice = 1;
     while (ochoice != 0) {
     System.out.println("\n========PHONE BOOK OPTIONS========");
     System.out.println("1. Type of view");
@@ -101,7 +101,7 @@ break;
 break;
 
     case 2:
-    int mchoice = -1;
+    int mchoice = 1;
     while (mchoice != 0) {
     System.out.println("\n========== MESSAGES ==========");
     System.out.println("1. Write messages");
@@ -130,7 +130,7 @@ break;
     case 6: System.out.println("-> Smileys...");
 break;
     case 7:
-    int mschoice = -1;
+    int mschoice = 1;
     while (mschoice != 0) {
     System.out.println("\n======= MESSAGE SETTINGS =======");
     System.out.println("1. Set 1");
@@ -141,7 +141,7 @@ break;
 
     switch (mschoice) {
     case 1:
-    int setchoice = -1;
+    int setchoice = 1;
     while (setchoice != 0) {
     System.out.println("\n--- Set 1 ---");
     System.out.println("1. Message centre number");
@@ -154,7 +154,7 @@ break;
 }
 break;
     case 2:
-    int commonhoice = -1;
+    int commonhoice = 1;
     while (commonhoice != 0) {
     System.out.println("\n--- Common ---");
     System.out.println("1. Delivery reports");
@@ -177,7 +177,7 @@ break;
 break;
 
     case 4:
-    int callchoice = -1;
+    int callchoice = 1;
     while (callchoice != 0) {
     System.out.println("\n========== CALL REGISTER ==========");
     System.out.println("1. Missed calls");
@@ -194,7 +194,7 @@ break;
 
     switch (callchoice) {
     case 5:
-    int durationchoice = -1;
+    int durationchoice = 1;
     while (durationchoice != 0) {
     System.out.println("\n--- Show call duration ---");
     System.out.println("1. Last call duration");
@@ -208,7 +208,7 @@ break;
 }
 break;
     case 6:
-    int costchoice = -1;
+    int costchoice = 1;
     while (costchoice != 0) {
     System.out.println("\n--- Show call costs ---");
     System.out.println("1. Last call cost");
@@ -220,7 +220,7 @@ break;
 }
 break;
     case 7:
-    int costsettingschoice = -1;
+    int costsettingschoice = 1;
     while (costsettingschoice != 0) {
     System.out.println("\n--- Call cost settings ---");
     System.out.println("1. Call cost limit");
@@ -235,7 +235,7 @@ break;
 break;
 
     case 5:
-    int toneschoice = -1;
+    int toneschoice = 1;
     while (toneschoice != 0) {
     System.out.println("\n========== TONES ==========");
     System.out.println("1. Ringing tone");
@@ -254,7 +254,7 @@ break;
 break;
 
     case 6:
-    int settingschoice = -1;
+    int settingschoice = 1;
     while (settingschoice != 0) {
     System.out.println("\n========== SETTINGS ==========");
     System.out.println("1. Call settings");
@@ -282,7 +282,7 @@ break;
 }
 break;
     case 2:
-    int phonesettingschoice = -1;
+    int phonesettingschoice = 1;
     while (phonesettingschoice != 0) {
     System.out.println("\n--- Phone settings ---");
     System.out.println("1. Language");
@@ -297,7 +297,7 @@ break;
 }
 break;
     case 3:
-    int securitychoice = -1;
+    int securitychoice = 1;
     while (securitychoice != 0) {
     System.out.println("\n--- Security settings ---");
     System.out.println("1. PIN code request");
@@ -325,7 +325,7 @@ break;
 break;
 
     case 11:
-    int clockchoice = -1;
+    int clockchoice = 1;
     while (clockchoice != 0) {
     System.out.println("\n========== CLOCK ==========");
     System.out.println("1. Alarm clock");
