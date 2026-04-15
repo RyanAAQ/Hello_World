@@ -28,7 +28,8 @@ public class Nokia {
     switch (choice) {
     case 0:
     running = 0;
-    System.out.println("Exiting phone");
+    System.out.println("Powering off nigger");
+    System.out.println("=====GOODBYE=====");
 break;
 
     case 1:
