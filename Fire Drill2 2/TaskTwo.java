@@ -11,8 +11,8 @@ public class TaskOne{
     System.out.println("Enter scores ");
     int scores = input.nextInt();
 
-    total = total + scores;
-     counter++;
+    total = total + scores / 10;
+counter++;
 }
     System.out.println("sum = " + total);
     }
