@@ -9,10 +9,10 @@ public class Patterns3{
             
     for (int row = 1; row <= rows; row++){
     for (int space = 1; space <= rows - row; space++){
-    System.out.print("*");
+    System.out.print(" ");
 }
    for (int star = 1; star <= row; star++){
-   System.out.print(" ");
+   System.out.print("*");
 }
    System.out.println();
         }

@@ -6,12 +6,12 @@ import java.util.Scanner;
     Scanner input = new Scanner(System.in);
 
     System.out.println("Enter take off speed (v)");
-    double v = input.nextDouble();
+    double speed = input.nextDouble();
 
     System.out.println("Enter acceleration (a)");
-    double a = input.nextDouble();
+    double acceleration = input.nextDouble();
 
-    double runwaylength = v * v / (2 * a);
+    double runwaylength = speed * speed / (2 * acceleration);
 
     System.out.println("Minimum Runway Length is " + runwaylength + "meters");
 

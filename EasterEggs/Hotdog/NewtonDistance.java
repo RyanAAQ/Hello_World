@@ -6,17 +6,17 @@ import java.util.Scanner;
     Scanner input = new Scanner(System.in);
 
     System.out.println("Enter initial velocity");
-    double u = input.nextDouble();
+    double velocity = input.nextDouble();
     
     System.out.println("Enter time span");
-    double t = input.nextDouble();
+    double time = input.nextDouble();
 
     System.out.println("Enter acceleration");
-    double a = input.nextDouble();
+    double acceleration = input.nextDouble();
 
-    double s = u * t + 0.5 * a * t * t;
+    double distance = (velocity * time) + 0.5 * acceleration * (time * time);
 
-    System.out.printf("Distance covered = %.2f meters\n", s);
+    System.out.printf("Distance covered = %.2f meters\n", distance);
 
     }
 }

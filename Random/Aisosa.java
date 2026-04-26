@@ -12,10 +12,10 @@ public class Aisosa{
     for (int innerloop = num; innerloop >= 1; innerloop--){
  
     if (mainloop <= innerloop) 
-    System.out.print(" ");
+    System.out.print("*");
 
     else
-    System.out.print("*");
+    System.out.print(" ");
     
 }
     System.out.println();

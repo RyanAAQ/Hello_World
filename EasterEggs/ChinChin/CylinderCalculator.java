@@ -11,8 +11,8 @@ import java.util.Scanner;
     System.out.println("Enter the height of the cylinder ");
     double height = input.nextDouble();
 
-    double volume = Math.PI * radius * radius * height;
-    double surfacearea = 2 * Math.PI * radius * (radius + height);
+    double volume = Math.PI * (radius * radius) * height;
+    double surfacearea = 2 * Math.PI * radius * height + (2 * Math.PI * radius * radius);
 
     System.out.println("Volume is " + volume);
     System.out.println("Surface area is " + surfacearea);
