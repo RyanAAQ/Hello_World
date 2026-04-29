@@ -4,27 +4,23 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BackToSenderTest{
 
     @Test
-    public void belowFifty(){
-    assertEquals(9000, BackToSender.calculateriderwage(25));
-}
-    @Test
-    public void exactlyFifty(){
-    assertEquals(15000, BackToSender.calculateriderwage(50));
+    public void belowfifty(){
+    assertEquals(9000, BackToSender.calculateriderpay(25));
 }
 
     @Test
-    public void fiftyToFiftyNine(){
-    assertEquals(16000, BackToSender.calculateriderwage(55));
+    public void fiftytofiftynine(){
+    assertEquals(16000, BackToSender.calculateriderpay(55));
 }
 
     @Test
-    public void sixtyToSixtyNine(){
-    assertEquals(21250, BackToSender.calculateriderwage(65));
+    public void sixtytosixtynine(){
+    assertEquals(21250, BackToSender.calculateriderpay(65));
 }
 
     @Test
-    public void seventyPlus(){
-    assertEquals(45000, BackToSender.calculateriderwage(80));
+    public void seventyplus(){
+    assertEquals(45000, BackToSender.calculateriderpay(80));
     }
 
 }

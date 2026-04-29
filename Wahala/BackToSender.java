@@ -1,6 +1,6 @@
 public class BackToSender {
 
-    public static int calculateriderwage(int deliveries) {
+    public static int calculateriderpay(int deliveries) {
     int pay = 5000;
     int amount = 0;
 
