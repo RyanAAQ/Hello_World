@@ -7,8 +7,7 @@ public class largestnumber{
     for(int num = numbers.length - 1; num >= 0; num--){
     System.out.print(numbers[num] + " ");
 }    
-    return numbers[0
-    ];
+    return numbers[0];
 }
 
     public static int getlargest(int [] numbers){
