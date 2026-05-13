@@ -6,11 +6,11 @@ public class CheckoutApp {
     Scanner input = new Scanner(System.in);
 
     String[] userItems = new String[100];
-    int[] itemQuantity = new int[100];
-    double[] itemPrice = new double[100];
+    int[] items = new int[100];
+    double[] price = new double[100];
     double[] total = new double[100];
     
-    System.out.println("=============== WELCOME TO SEMICOLON SUPERSTORES ================");
+    System.out.println("=============== WELCOME TO SEMICOLON SUPERMARKET ================");
 
     int index = 0;
 
@@ -22,12 +22,12 @@ public class CheckoutApp {
     userItems[index] = input.next();
 
     System.out.print("Enter Item Price: ");
-    itemPrice[index] = input.nextDouble();
+    price[index] = input.nextDouble();
 
     System.out.print("Enter quantity: ");
-    itemQuantity[index] = input.nextInt();
+    items[index] = input.nextInt();
 
-    total[index] = itemPrice[index] * itemQuantity[index];
+    total[index] = price[index] * items[index];
     index++;
 
     System.out.print("Add more items? (yes/no): ");
@@ -36,25 +36,24 @@ public class CheckoutApp {
 
     } while (index < 100);
 
-    double subtotal = 0;
+    double totalPrice = 0;
     for (int count = 0; count < index; count++) {
-    subtotal += total[count];
+    totalPrice += total[count];
 }
 
-    double discount = subtotal * 0.10;
-    double vat = subtotal * 0.075;
-    double billTotal = subtotal - discount + vat;
+    double discount = totalPrice * 0.10;
+    double vat = totalPrice * 0.075;
+    double billTotal = totalPrice - discount + vat;
 
     System.out.println("\n===== RECEIPT =====");
     System.out.println("Customer name: " + customer);
-    System.out.println("-------------------------");
 
     for (int count = 0; count < index; count++) {
-    System.out.println(userItems[count] + " x" + itemQuantity[count] + " @ " + itemPrice[count] + " = " + total[count]);
+    System.out.println(userItems[count] + " x" + items[count] + " @ " + price[count] + " = " + total[count]);
 }
 
     System.out.println("-------------------------");
-    System.out.printf("Subtotal: %.2f\n", subtotal);
+    System.out.printf("totalPrice: %.2f\n", totalPrice);
     System.out.printf("Discount: %.2f\n", discount);
     System.out.printf("VAT (7.5%%): %.2f\n", vat);
     System.out.printf("Bill Total: %.2f\n", billTotal);

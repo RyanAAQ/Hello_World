@@ -3,15 +3,15 @@ public class OshoFreePromoEngine{
 
     double discount = 0.0;
     
-    if((cartTotal >= 5000) && (cartTotal < 15000) && ("STARTER10".equals(promoCode))){
+    if((cartTotal >= 5000) && (cartTotal < 15000) && (promoCode.equalsIgnoreCase("STARTER10"))){
         discount = 0.10;
         
     } 
-    else if((cartTotal >= 15000) && (cartTotal < 30000) && ("BIGBOY20".equals(promoCode))){
+    else if((cartTotal >= 15000) && (cartTotal < 30000) && (promoCode.equalsIgnoreCase("BIGBOY20"))){
         discount = 0.20;
         
     }
-    else if((cartTotal >= 30000) && ("OSHOFREE35".equals(promoCode))){
+    else if((cartTotal >= 30000) && (promoCode.equalsIgnoreCase("OSHOFREE35"))){
         discount = 0.35;
         
     }
